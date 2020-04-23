@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Person
+comment0.text=\r\n\ superclass\ of\ class\ Player\ and\ Coach\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=name
+comment1.target=Person(java.lang.String)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Person\r\n
+comment2.params=
+comment2.target=java.lang.String\ getName()
+comment2.text=\r\n\ An\ example\ of\ a\ method\ -\ replace\ this\ comment\ with\ your\ own\r\n\r\n\ \r\n\ \r\n
+numComments=3

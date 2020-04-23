@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=Division
+comment0.text=\r\n\ I\ use\ a\ MashMap\ to\ store\ teams,\ with\ teams'name(sampleteam.getName())\ as\ key\ and\ class\ Team's\ instance\ as\ value.\ Every\ element\ is\ unique.\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=name
+comment1.target=Division(java.lang.String)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ division\r\n
+comment2.params=team
+comment2.target=void\ addTeam(Team)
+comment2.text=\r\n\r\n\ use\ put(key,value)\ to\ input\ element\ into\ this\ HashMap\r\n\ \r\n
+comment3.params=teamName
+comment3.target=Team\ getTeamByName(java.lang.String)
+comment4.params=
+comment4.target=java.util.HashMap\ getTeams()
+comment5.params=
+comment5.target=int\ getNumberOfTeams()
+comment6.params=
+comment6.target=void\ divisionSetup()
+comment6.text=\r\n\ this\ parameter\ takes\ four\ parameters,two\ of\ which\ are\ Team's\ instances.\r\n\ firstly,\ neither\ team1\ nor\ team2\ can\ be\ null\ and\ goal\ numbers\ should\ be\ greater\ than\ 0.\r\n\ when\ a\ match\ result\ is\ finished,\ the\ value\ of\ instance\ variable\ point,\ goalNumber\ and\ lostGoalNumber\ in\ teams\ which\ participate\ in\ match\ will\ be\ changed\r\n
+comment7.params=team1\ team1Goals\ team2\ team2Goals
+comment7.target=void\ addAMatch(Team,\ int,\ Team,\ int)
+comment7.text=\r\n\ this\ parameter\ takes\ four\ parameters,two\ of\ which\ are\ Team's\ instances.\r\n\ firstly,\ neither\ team1\ nor\ team2\ can\ be\ null\ and\ goal\ numbers\ should\ be\ greater\ than\ 0.\r\n\ when\ a\ match\ result\ is\ finished,\ the\ value\ of\ instance\ variable\ point,\ goalNumber\ and\ lostGoalNumber\ in\ teams\ which\ participate\ in\ match\ will\ be\ changed\r\n
+comment8.params=
+comment8.target=void\ displayDivision()
+comment8.text=\r\n\ create\ a\ new\ local\ variable\ called\ ranking\r\n\ we\ extract\ all\ hashMap's\ value\ in\ key\ value\ pair\ to\ generate\ a\ new\ ArrayList\ whose\ elements\ are\ a\ lot\ of\ team\ instance\r\n\ Collections.sort(.....)\r\n\ use\ a\ for\ loop\ to\ execute\ toString\ method\ defined\ in\ displayDivision\ method\ for\ list.size()-1\ times\r\n
+comment9.params=o1\ o2
+comment9.target=int\ compare(java.lang.Object,\ java.lang.Object)
+numComments=10
